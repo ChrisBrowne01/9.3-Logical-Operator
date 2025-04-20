@@ -65,7 +65,27 @@
     // Ternary Operators
 
     let max = x > y ? x : y;
-    console.log(`The maxium value is ${max}`)
+    console.log(`The maxium value is ${max}`);
+
+    // Type Operators
+
+    if (typeof x === "number") {
+      console.log("x is a number")
+    }
+
+    if (typeof z === "string") {
+      console.log("z is a string")
+    }
+
+    if (typeof a === "boolean") {
+      console.log("a is a boolean")
+    }
+
+    // Nullish coalescing Operator
+    let value = null;
+    let defaultValue = 10;
+    let result = value ?? defaultValue;
+    console.log(result); // Output: 10
   </script>
 </body>
 </html>
